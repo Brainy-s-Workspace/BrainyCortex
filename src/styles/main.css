@@ -1,1 +1,34 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../assets/fonts/MerriweatherBold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../assets/fonts/MerriweatherExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: url('../assets/fonts/MerriweatherSansBold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: url('../assets/fonts/MerriweatherSansExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+}
+
+@theme {
+    --font-merriweather: 'Merriweather', serif;
+    --font-merriweather-sans: 'MerriweatherSans', sans-serif;
+    --color-primary: #1E2761;
+    --color-secondary: #E6E6FA;
+    --color-tertiary: #3B4797;
+    --color-error: #BD1517;
+}

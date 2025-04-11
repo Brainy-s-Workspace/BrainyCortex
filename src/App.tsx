@@ -3,7 +3,7 @@ import Login from './pages/Login'
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-gradient-to-br from-primary via-primary to-tertiary from-30% to-80%">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Login />}>
