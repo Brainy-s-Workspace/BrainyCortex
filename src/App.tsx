@@ -3,12 +3,14 @@ import Login from './pages/Login'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Login />}>
+    <div className="">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login />}>
         </Route>
       </Routes>
     </BrowserRouter>
+    </div>
   )
 }
 
